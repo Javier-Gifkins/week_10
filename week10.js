@@ -116,3 +116,14 @@
 // }
 // // should print ([[3,3],[3,3],[3,3]])
 // console.log(createSubArray(3, 2, 3)) 
+
+
+// function depth(array) {
+//     if(!Array(arr)) {
+//     }
+
+// })
+
+// ES6
+
+const depthArray = (arr, t = 1) => arr.some(Array,isArray) ? depthArray(arr.flat(), t + 1): t
